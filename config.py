@@ -8,5 +8,5 @@ TOKEN = getenv("TOKEN", "6009759960:AAHUnDKep8-A9uuIKmEAnPIFrneaOIUsVGk")
 
 MONGO_DB_URL = getenv(
     "MONGO_DB_URL",
-    "mongodb+srv://King098:king098@cluster0.lhmvji8.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://Dada:izzyyir@143@cluster0.r3nby2c.mongodb.net/?retryWrites=true&w=majority",
 )
