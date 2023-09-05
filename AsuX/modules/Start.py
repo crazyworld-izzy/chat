@@ -4,7 +4,7 @@
 """
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.ext import CommandHandler, ContextTypes, Updater
+from telegram.ext import CommandHandler, ContextTypes, Update
 
 from AsuX import rani
 
@@ -16,7 +16,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada 𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
+                text="ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true",
             )
         ]
@@ -34,7 +34,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada 𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
+                text="ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true",
             )
         ]
