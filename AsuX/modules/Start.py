@@ -4,7 +4,7 @@
 """
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.ext import CommandHandler, ContextTypes
+from telegram.ext import CommandHandler, ContextTypes, Updater
 
 from AsuX import rani
 
