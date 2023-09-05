@@ -32,8 +32,8 @@ async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [
                 [
                     InlineKeyboardButton(
-                        text="sᴏᴜʀᴄᴇ",
-                        url=f"https://github.com/Abishnoi69/AsuX",
+                        text="ask",
+                        url=f"https://t.me/moon_shine_dada",
                     )
                 ]
             ]
