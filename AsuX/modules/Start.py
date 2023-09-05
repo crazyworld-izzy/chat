@@ -16,13 +16,15 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada \n ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ \n𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
+                text="𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada 
+                      ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 
+                      𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
                 url=f"http://t.me/{context.bot.username}?startgroup=true",
             )
         ]
     )
     await msg.reply_text(
-        f"ʜᴇʏ\nɪ'ᴍ {context.bot.first_name}\n 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n",
+        f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n",
         reply_markup=InlineKeyboardMarkup(akboss),
     )
 
@@ -34,13 +36,15 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada \n ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ \n𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
+                text="𝐌ʏ 𝐎ᴡɴᴇʀ 𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮ ‌𝚳⎼⎼ⷴ⎼⎼ⷴ⎼⎼ⷫ⋆𝛿⎼⎼ⷩ⎼⎼ᷥ⎼⎼ⷫ⎼⎼ⷷ⋆‌🤍࿐ - @moon_shine_dada 
+                      ᴀᴅᴅ 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤   ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 
+                      𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine",
                 url=f"http://t.me/{context.bot.username}?startgroup=true",
             )
         ]
     )
     await msg.reply_text(
-        f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\nɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n\n 🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ",
+        f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\nɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n\n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ",
         reply_markup=InlineKeyboardMarkup(akboss),
     )
 
