@@ -53,7 +53,19 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
     )
     await msg.reply_text(
-        f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\nɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n\n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ",
+        f"ʜᴇʏ\n
+         ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+         ɪ'ᴍ {context.bot.first_name}\n
+         ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+         ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ \n
+          ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+          𝐌ʏ 𝐎ᴡɴᴇʀ  𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮\n
+          ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+          𝐎ᴡɴᴇʀ - 𝐈ᴅ : @moon_shine_dada
+          ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+          𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine
+          ➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n
+        \n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ",
         reply_markup=InlineKeyboardMarkup(akboss),
     )
 
