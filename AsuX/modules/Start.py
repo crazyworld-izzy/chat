@@ -22,7 +22,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
     )
     await msg.reply_text(
-        f"ʜᴇʏ\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\nɪ'ᴍ {context.bot.first_name}\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐌ʏ 𝐎ᴡɴᴇʀ  𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐎ᴡɴᴇʀ - 𝐈ᴅ : @moon_shine_dada\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐒ᴜᴘᴘᴏʀᴛ - @tamil_moon_shine\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖",
+        f"ʜᴇʏ\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\nɪ'ᴍ {context.bot.first_name}\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐌ʏ 𝐎ᴡɴᴇʀ  𓆩⟶‌𒌋⃝💙⋆↬ 𝐃𖽖⃨𖽴᪱𖽖‌⃮\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐎ᴡɴᴇʀ - 𝐈ᴅ : @moon_shine_dada\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n𝐒ᴜᴘᴘᴏʀᴛ - @tamil_magical_love\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n🦋͢𝆺𝅥𓆩〭〬𝐂𖽪֟፝͢𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ͢𝆺𝅥😻⤍🖤 ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖",
         reply_markup=InlineKeyboardMarkup(akboss),
     )
 
