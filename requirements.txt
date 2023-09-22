@@ -1,6 +1,6 @@
+Abg==2.3.3
+aiohttp
 requests
-motor
+pySmartDL
 pymongo[src]
-dnspython
-python-telegram-bot==20.0
-psutil
+pyrogram
